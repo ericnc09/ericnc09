@@ -1,6 +1,6 @@
 # Hi, I'm Eric 👋
 
-I build AI-powered products and ship production systems that solve real problems.
+I build AI-powered products and ship production systems that solve real problems and play with Football data as well!
 
 Most of my work is hands-on: designing RAG architectures, optimizing LLM performance, and turning messy technical requirements into working products that people actually use.
 
