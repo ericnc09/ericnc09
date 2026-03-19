@@ -1,6 +1,6 @@
 # Hi, I'm Eric 👋
 
-I build AI-powered products and ship production systems that solve real problems and play with Football data as well!
+I build AI-powered products and ship production systems that solve real problems — and I apply ML research to football data on the side.
 
 Most of my work is hands-on: designing RAG architectures, optimizing LLM performance, and turning messy technical requirements into working products that people actually use.
 
@@ -14,6 +14,12 @@ I recently shipped the **3GPP RAG Assistant** — a production conversational ag
 * LLM-powered workflows: query routing, context management, latency optimization (<2s response times)
 * Conversational interfaces: user-facing agents that handle complex domain-specific queries
 
+**ML Research & Graph Learning:**
+* Graph Neural Networks (GCN, GAT) on spatial event data
+* Cross-domain generalization: training on one dataset, evaluating on a structurally different one
+* Benchmarking GNN models against statistical and industry baselines
+* End-to-end pipelines: raw event data → graph construction → model training → evaluation
+
 **Product Development:**
 * 0→1 product building: from user research → requirements → MVP → iteration
 * AI integration into enterprise workflows: automation, forecasting, operational efficiency
@@ -22,6 +28,7 @@ I recently shipped the **3GPP RAG Assistant** — a production conversational ag
 
 **Technical Stack:**
 * LLMs: OpenAI, Anthropic Claude, RAG architectures
+* ML/Deep Learning: PyTorch, PyTorch Geometric, GCN, GAT, scikit-learn
 * Languages: Python, SQL
 * Tools: PowerBI, Tableau, Git, AI coding assistants
 * Frameworks: Agile/Scrum, RICE prioritization, user-centered design
@@ -41,6 +48,25 @@ Production AI agent for technical documentation retrieval:
 * **Solution:** RAG-based conversational agent with semantic search and intelligent query routing
 * **Impact:** 80% accuracy, <2s response time, 650% user growth (2 → 15 users)
 * **Tech:** LLM-powered retrieval, prompt engineering, performance optimization, user feedback loops
+
+### Football GNN Analysis — Graph Neural Networks on Spatial Football Data
+Research pipeline applying GCN and GAT models to football (soccer) data across 6 experiments:
+* **Problem:** Can a model learn football tactics and shot quality from player positions alone — without hard-coded rules?
+* **Approach:** Players modeled as graph nodes, spatial relationships as edges (Delaunay triangulation). Trained on StatsBomb 360 freeze-frames and Metrica optical tracking data.
+* **Results across 6 experiments:**
+
+| Task | Best GNN AUC | Baseline | Takeaway |
+|---|---|---|---|
+| Team classifier (in-game) | **1.000** (GAT) | 0.547 | GAT perfectly separates formations via edge attention |
+| Team classifier (cross-match) | **1.000** (GCN) | 0.547 | GCN generalizes better; classic bias-variance reversal |
+| Pass completion (in-competition) | **0.609** (GCN) | ~0.5 | AUC consistent with professional xP models |
+| Pass completion (cross-competition, WC2022 → WWC2023) | **0.672** (GAT) | ~0.5 | Spatial geometry transfers across men's & women's football |
+| xG model (in-competition) | 0.593 (GAT) | 0.799 LogReg | Distance dominates at this data scale |
+| xG model (cross-competition) | 0.603 (GCN) | 0.764 LogReg | GCN beats GAT cross-domain; geometry transfers |
+
+* **Scale:** 107K+ pass-completion graphs · 3,000+ shot graphs · 4 datasets · WC2022 + WWC2023
+* **Tech:** PyTorch Geometric, GCNConv, GATv2Conv, StatsBomb Open Data, statsbombpy
+* **Repo:** [football-analysis](https://github.com/ericnc09/football-analysis)
 
 ### AI Automation at Rogers
 Internal tool for operational efficiency:
@@ -66,11 +92,11 @@ Enterprise-scale data products:
 
 ## Let's Connect
 
-🌱 **Building AI products?** I'm always interested in chatting about RAG architectures, LLM optimization, or product strategy for AI-powered systems.
+🌱 **Building AI products or exploring sports analytics?** I'm always interested in chatting about RAG architectures, LLM optimization, GNN research, or product strategy for AI-powered systems.
 
-📍 Based in Toronto/Hamilton, ON  
-💼 Open to product roles in AI/ML  
-📧 ericcosta.public@gmail.com  
+📍 Based in Toronto/Hamilton, ON
+💼 Open to product roles in AI/ML
+📧 ericcosta.public@gmail.com
 🔗 [LinkedIn](https://linkedin.com/in/ericcostanil)
 
 ---
