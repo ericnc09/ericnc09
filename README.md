@@ -37,7 +37,7 @@ I recently shipped the **3GPP RAG Assistant** — a production conversational ag
 
 * **Product Manager at Rogers Communications** building AI-powered digital products and leading technical initiatives across a $35.6M portfolio
 * **MS in Computer Science** (AI & Data Science) from York University — deep learning, machine learning, data visualization
-* **Published researcher** in medical AI: [CervixCan-Net](https://www.mecs-press.org/ijisa/ijisa-v17-n1/IJISA-V17-N1-1.pdf) (cervical cancer classification using deep learning)
+* **Published researcher** in medical AI: CervixCan-Net (cervical cancer classification using deep learning)
 * **Engineering background** (4 years): built and shipped 120+ infrastructure projects, worked with cross-functional teams at scale
 
 ## Recent Projects
