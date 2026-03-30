@@ -69,6 +69,23 @@ Research pipeline applying GCN and GAT models to football (soccer) data across 6
 * **Tech:** PyTorch Geometric, GCNConv, GATv2Conv, StatsBomb Open Data, statsbombpy
 * **Repo:** [football-analysis](https://github.com/ericnc09/football-analysis)
 
+### Smart Money Follows — Insider & Congressional Trade Signal Platform
+Automated system that tracks what corporate insiders and Congress are trading, scores each signal for conviction, and surfaces the highest-quality opportunities through a live dashboard:
+* **Problem:** Insider and congressional trade disclosures are public, but scattered across SEC filings and government reports — buried in XML and HTML. By the time retail investors notice, the edge is gone.
+* **Solution:** End-to-end pipeline that ingests trades from SEC EDGAR (Form 4) and Capitol Trades, enriches them with real-time fundamentals and macroeconomic context, and produces a 0–100% conviction score per signal.
+* **Scoring model:** Multi-factor conviction engine combining three dimensions:
+
+| Dimension | Weight | Factors |
+|---|---|---|
+| Signal Strength | 40% | Actor reputation, trade size, insider clustering, disclosure timing, cross-source consensus |
+| Fundamental Quality | 35% | Valuation (P/E), momentum, volatility regime (RSI), drawdown opportunity, liquidity |
+| Macro Regime | 25% | Yield curve, unemployment, CPI, fed funds rate → Expansion/Transition/Recession modifier (0.5x–1.5x) |
+
+* **Key features:** Direction-aware scoring (buy-the-dip vs sell-at-highs), macro regime detection via FRED, real-time React dashboard with signal table, macro gauge, and conviction breakdowns
+* **Data sources:** SEC EDGAR RSS + XML parsing, Capitol Trades RSC scraping, Tiingo API (fundamentals), FRED API (macro) — all zero-cost
+* **Tech:** Python, FastAPI, SQLAlchemy, httpx (async), React 18, TypeScript, Vite, Recharts
+* **Repo:** [financial-planner](https://github.com/ericnc09/financial-planner)
+
 ### AI Automation at Rogers
 Internal tool for operational efficiency:
 * **Impact:** 2% operational cost reduction, 40% faster onboarding time
