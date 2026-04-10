@@ -4,6 +4,8 @@ PM at Rogers Communications building AI products. On the side: ML research appli
 
 Engineering background — four years shipping infrastructure before pivoting into tech. MS in Computer Science (AI & Data Science) from York University. Published work in medical AI and data visualization.
 
+### [My Substack](https://ericccosta.substack.com)
+
 ---
 
 ## Projects
