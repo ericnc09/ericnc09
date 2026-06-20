@@ -6,6 +6,8 @@ Engineering background — four years shipping infrastructure before pivoting in
 
 ### [My Substack](https://ericccosta.substack.com)
 
+### [My Portfolio](https://ericcosta.ca)
+
 ---
 
 ## Projects
