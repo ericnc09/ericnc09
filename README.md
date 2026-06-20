@@ -32,4 +32,4 @@ Pulls insider and congressional trade disclosures from SEC EDGAR and Capitol Tra
 
 ---
 
-📍 Toronto/Hamilton · ericcosta.public@gmail.com · [LinkedIn](https://linkedin.com/in/ericcostanil)
+📍 Toronto · ericcosta.public@gmail.com · [LinkedIn](https://linkedin.com/in/ericcostanil)
