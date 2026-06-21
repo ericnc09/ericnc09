@@ -10,7 +10,7 @@ Engineering background — four years shipping infrastructure before pivoting in
 
 ## Projects
 
-### [Football, Intelligrntly: Neural Net Analysis](https://github.com/ericnc09/football-analysis)
+### [Football, Intelligently: Neural Net Analysis](https://github.com/ericnc09/football-analysis)
 
 Graph Neural Networks applied to football. Players are modeled as graph nodes, spatial relationships as edges. The HybridGAT+T model reaches AUC 0.760 on 8,013 shots across 7 StatsBomb competitions — 95.7% of StatsBomb's proprietary xG, using only open data. There's an interactive dashboard too: shot maps, freeze-frame saliency overlays, calibration curves, match reports.
 
