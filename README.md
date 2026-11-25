@@ -18,7 +18,7 @@ Graph Neural Networks applied to football. Players are modeled as graph nodes, s
 
 Built at Rogers so telecom engineers could search 3GPP specifications without reading thousand-page PDFs. Fully local — no API keys, no subscriptions. Multi-turn conversations, citation tracking, semantic search across 37 specs. Grew from 2 to 15 users through iterative optimization. 80% retrieval accuracy, under 2-second responses.
 
-### [Intelligent Financial Market Analyzer](https://github.com/ericnc09/financial-planner)
+### [finAlyse: An AI Pipeline for Financial Markets](https://github.com/ericnc09/financial-planner)
 
 Pulls insider and congressional trade disclosures from SEC EDGAR and Capitol Trades, enriches each one with fundamentals and macro context, and scores conviction from 0–100%. React dashboard for browsing the ranked feed. All data sources are free — no paid APIs required.
 
